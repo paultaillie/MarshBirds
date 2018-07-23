@@ -1,0 +1,11 @@
+Observations,Detection Model,Converge,negLogLike,nPars,AIC,delta,AICwt,cumltvWt
+In-person,~type + time + date + date2,No,16.4,7,46.7,0.0,0.5,0.48
+In-person,~type + time + date ,No,17.7,6,47.4,0.7,0.3,0.81
+In-person,~type + time + time2 + date + date2 ,No,16.3,8,48.7,1.9,0.2,0.99
+In-person,~type + time ,Yes,22.8,5,55.6,8.9,0.0,1.00
+In-person,~type ,Yes,25.2,4,58.4,11.7,0.0,1.00
+In-person and ARU,~type + time + time2 + date + date2,Yes,88.1,9,194.2,0.0,0.6,0.59
+In-person and ARU,~type + time + date ,Yes,91.2,7,196.3,2.1,0.2,0.80
+In-person and ARU,~type + time + date + date2,Yes,90.7,8,197.3,3.1,0.1,0.93
+In-person and ARU,~type ,Yes,94.6,5,199.2,4.9,0.1,0.98
+In-person and ARU,~type + time ,Yes,94.3,6,200.7,6.4,0.0,1.00
